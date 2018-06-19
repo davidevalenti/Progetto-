@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stile.css" type="text/css">
+    <title>Guida a Git</title>
+</head>
+<body>
+    <div>
+        <h1>GUIDA ALL'UTILIZZO DI GIT</h1>
+    <ul>
+    <li>
+    <h2>Inizializzazione</h2>
+    <p>Dopo aver avviato Git, occorre specificare il proprio nome e la propria email attraverso i comandi:
+    <center>git config --global user.name "nome_utente"</center>
+    <center>git config --global user.email "email_utente"</center>
+    In seguito occorre creare una cartella vuota dove inserire il "tracker" di Git:
+    <center>mkdir <i>nome_cartella</i></center>
+    A questo punto, entrando nella cartella appena creata attraverso il comando
+    <center>cd <i>percorso_cartella</i></center>
+    e scrivendo 
+    <center>git init</center>
+    Si è pronti a lavorare.</p>
+    </li>
+    <li>
+    <h2>Comandi Utili</h2>
+    <p>
+    <ul type="circle">   
+    <li>ls : visualizzo gli elementi visibili nella cartella selezionata</li>
+    <li>ls -a : visualizzo gli elementi visibili e "invisibili" nella cartella selezionata</li>
+    <li>cat <i>file</i>: mostra il contenuto del file</li>
+    <li>touch <i>file</i>: crea un file col nome file nella cartella selezionata</li>
+    <li><i>programma file</i> : apre un file col nome <i>file</i> attraverso il programma chiamato <i>programma</i></li>
+    <li>git add <i>file</i> : comando da utilizzare prima del commit per rendere possibile il commit del file</li>
+    <li>git commit -m "Testomessaggio" : esegue un commit descritto all'interno delle virgolette</li>
+    <li> git log : restituisce il log dei commit</li>
+    <li>git status : comando necessario per controllare se sono state effettuate delle modifiche.</p>
+    </ul>
+    </li>
+    <li>
+    <h2>Integrazione con SourceTree e VSCode</h2>
+    <p>La directory di cui vogliamo tenere traccia può essere anche impiegata da SourceTree per un approccio prevalentemente grafico. Infatti occorre solo trascinare la nostra cartella nell'apposito spazio (nella barra a sinistra) per inserire un "tracker" delle nostre modifiche. Su SourceTree è inoltre possibile creare nuovi branch (rami) del nostro file, pensabili come i rami che provengono dal tronco di un albero; ma è anche possibile effettuare il Merge/Rebase dei file, ovvero combinare 2 o più file provenienti da branch differenti in un unico documento contenente le modifiche di tutti.  Alla stessa maniera, Visual Studio Code si integra perfettamente con SourceTree, permettendo di switchare in tempo reale da un commit all'altro attraverso <i>Click Dx>Checkout</i>> (sulla versione del file che ri-vogliamo)><i>Okay.</i></p>
+    </li>
+    <li>
+    <h2>Siti utili</h2>
+    <p>
+    <a href="https://git-scm.com/book/it/v1/Per-Iniziare-Basi-di-Git">Guida alle basi di Git!</a><br>
+    <a href="http://www.html.it/guide/git-la-guida/">Guida leggermente pi&ugrave; approfondita.</a>
+    </p>
+    </li>
+    </ul>
+    </div>
+    <div id="bottom">
+        <p>Realizzato da Alessia Burnelli e Davide Valenti</p>
+    </div>
+</body>
+</html>
